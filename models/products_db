@@ -1,0 +1,20 @@
+<?php
+
+$products=[
+    new products('Pallina', 10, 'canetto',  'link placeholder'),
+    new products('Guinzaglio', 10,  'canetto', 'link placeholder'),
+    new products('Crocchetta', 10,  'canetto', 'link placeholder'),
+    new products('Cuccia', 10,  'canetto', 'link placeholder'),
+    new products('Palletta', 10,  'canetto', 'link placeholder'),
+    new products('Mantello', 10,  'canetto', 'link placeholder'),
+    new products('Crocchetta', 10,  'canetto', 'link placeholder'),
+    new products('Cuscino', 10,  'canetto', 'link placeholder'),
+    new products('Topo finto', 10,  'gattino', 'link placeholder'),    
+    new products('Occhiali', 10,  'gattino', 'link placeholder'),    
+    new products('Cibo Pesciarolo', 10,  'gattino', 'link placeholder'),    
+    new products('Cuccia inutile', 10,  'gattino', 'link placeholder'),    
+    new products('Gatto finto', 10,  'gattino', 'link placeholder'),    
+    new products('Cosa inutile', 10,  'gattino', 'link placeholder'),    
+    new products('Cibo tartaruga', 10,  'gattino', 'link placeholder'),    
+    new products('Cuccia strana', 10,  'gattino', 'link placeholder')    
+];
