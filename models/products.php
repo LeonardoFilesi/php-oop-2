@@ -1,12 +1,15 @@
 <?php
-
+require_once __DIR__ . "/category.php";
 class Products {
    public $name;
    public $price;
    public $category;        
    public $img;
 
-    function __construct($_name, $_price, $_category, $_img) {
+   
+
+
+    function __construct(String $_name, Float $_price, category $_category, String $_img) {
         $this->name = $_name;
         $this->price = $_price;
         $this->category = $_category;
@@ -21,9 +24,7 @@ class Products {
         'category' => $this->category,
         'image' => $this->img
        ];
-       return $details;
-       
-
+       return $details
        }
 }
 

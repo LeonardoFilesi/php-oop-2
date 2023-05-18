@@ -1,5 +1,13 @@
 <?php
-include_once __DIR__ . '/Models/Products.php';
+require_once __DIR__ . '/models/products.php';
+require_once __DIR__ . '/models/category.php';
+require_once __DIR__ . '/models/food.php';
+
+$dog_category = new category("dog", "icon placeholder");
+$cat_category = new category("cat", "icon placeholder");
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -20,11 +28,10 @@ include_once __DIR__ . '/Models/Products.php';
     <div class="wrapper container text-center">
 
         <?php
-        include_once __DIR__ . '/structure/header.php';
-        include_once __DIR__ . '/structure/main.php'
-
-
+        require_once __DIR__ . '/structure/header.php';
+        require_once __DIR__ . '/structure/main.php'
         ?>
+
 
     </div>
 </body>

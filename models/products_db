@@ -1,5 +1,10 @@
 <?php
 
+require_once __DIR__ . '/models/products.php';
+require_once __DIR__ . '/models/category.php';
+require_once __DIR__ . '/models/food.php';
+require_once __DIR__ . '/models/toy.php';
+
 $products=[
     new products('Pallina', 10, 'canetto',  'link placeholder'),
     new products('Guinzaglio', 10,  'canetto', 'link placeholder'),
