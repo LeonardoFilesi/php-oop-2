@@ -17,15 +17,17 @@ class Products {
     }
 
     
-    public function getDetails(){
-       $details = [
-        'name' => $this->name,
-        'price' => $this->price,
-        'category' => $this->category,
-        'image' => $this->img
-       ];
-       return $details
-       }
+    public function setDiscount($_discount) {
+        if ($_discount < 0 || $_discount > 50) {
+            throw new Exception("Scontotra 0 e 50.");
+        }
+
+        $this->discount = $_discount;
+    }
+
+    public function getDiscount() {
+        return $this->discount;
+    }
 }
 
 
